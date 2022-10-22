@@ -1,4 +1,4 @@
-FROM java:11
+FROM anapsix/alpine-java
 VOLUME /tmp
 ADD target/spring-petclinic-2.1.0.jar app.jar
 EXPOSE 8080
